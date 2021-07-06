@@ -113,7 +113,7 @@ async function getSummary() {
         totalActives[2].children[0].classList.add('fa-long-arrow-alt-up');
         totalActives[2].children[0].classList.remove('fa-long-arrow-alt-down');
       }
-      totalActives[2].children[1].innerHTML = `Diário ${calcActives}`
+      totalActives[2].children[1].innerHTML = `Diário ${calcActives }`
     }
  } catch(e) {
    console.error(e);
